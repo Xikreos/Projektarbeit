@@ -12,8 +12,8 @@
 ---
 
 ### Beteiligte Schüler:innen
-* xxxxx
-* xxxxx
+* Maximilian Norbach
+* Silas Schikker
 
 ---
 
@@ -22,7 +22,7 @@
 Das Projekt ist modular aufgebaut, um die physikalische Berechnung, die grafische Auswertung und den eigentlichen Programmstart sauber voneinander zu trennen.
 
 ```text
-wurfsimulation/
+Projektarbeit/
 │
 ├── .gitignore          # Steuert, welche Dateien nicht auf GitHub geladen werden
 ├── LICENSE             # Lizenzinformationen zum Projekt
