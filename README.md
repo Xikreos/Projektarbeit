@@ -1,24 +1,35 @@
-# Projektarbeit
+# Projektarbeit: Numerische Simulation des Wurfs unter Luftwiderstand
 
-Thema:
-Numerische Simulation des Wurfs unter Luftwiderstand per Euler-Verfahren mit mathematischer Analyse
+**Thema:** Numerische Simulation des Wurfs unter Luftwiderstand per Euler-Verfahren mit mathematischer Analyse  
+**Art der Arbeit:** Projekt mit Portfolio  
 
-----------------------------------------------------------------------------------------------------
-Projektarbeit:
-Projekt mit Portfolio
+---
 
-----------------------------------------------------------------------------------------------------
-Fächer:
+### Fächer
+* **Leistungskurs (LK):** Physik  
+* **Grundkurs (GK):** Mathematik  
 
-LK:
-Physik
+---
 
-GK:
-Mathematik
+### Beteiligte Schüler:innen
+* xxxxx
+* xxxxx
 
-----------------------------------------------------------------------------------------------------
-Beteiligte Schüler:innen
+---
 
-Silas Schikker
+## Projektstruktur
 
-Maximilian Norbach
+Das Projekt ist modular aufgebaut, um die physikalische Berechnung, die grafische Auswertung und den eigentlichen Programmstart sauber voneinander zu trennen.
+
+```text
+wurfsimulation/
+│
+├── .gitignore          # Steuert, welche Dateien nicht auf GitHub geladen werden
+├── LICENSE             # Lizenzinformationen zum Projekt
+├── README.md           # Diese Übersicht und Projektbeschreibung
+├── main.py             # Hauptprogramm und Startpunkt der Simulation
+│
+└── src/                # Quellcode-Ordner (Source)
+    ├── __init__.py     # Signaldatei für Python (bleibt leer)
+    ├── physics.py      # Physikalische Logik & Euler-Verfahren
+    └── visualization.py # Erstellung der Diagramme und Plots
