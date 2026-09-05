@@ -24,6 +24,7 @@ Projektarbeit/
 │
 ├── .gitignore          # Steuert, welche Dateien nicht auf GitHub geladen werden
 ├── LICENSE             # Lizenzinformationen zum Projekt
+├── Portfolio.odt       # Portfolio/Dokumentation der Projektarbeit
 ├── README.md           # Diese Übersicht und Projektbeschreibung
 ├── main.py             # Hauptprogramm und Startpunkt der Simulation
 │
