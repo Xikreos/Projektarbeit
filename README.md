@@ -19,8 +19,6 @@
 
 ## Projektstruktur
 
-Das Projekt ist modular aufgebaut, um die physikalische Berechnung, die grafische Auswertung und den eigentlichen Programmstart sauber voneinander zu trennen.
-
 ```text
 Projektarbeit/
 │
