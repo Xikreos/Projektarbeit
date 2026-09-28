@@ -23,11 +23,11 @@ def Simulation(v0, angle_deg, dt, m, r, cw, rho, g):
         # Luftwiderstandskraft: F_w = 0.5 * rho * A * cw * v^2
         F_w = 0.5 * rho * A * cw * (v**2)
         
-        # Beschleunigungen (F_w wirkt entgegen der aktuellen Flugrichtung)
+        # Beschleunigungen
         ax = -(F_w / m) * (vx / v)
         ay = -g - (F_w / m) * (vy / v)
         
-        # Euler-Schritt (Aktualisierung von Ort und Geschwindigkeit)
+        # Euler-Schritt
         x = x + vx * dt
         y = y + vy * dt
         vx = vx + ax * dt
