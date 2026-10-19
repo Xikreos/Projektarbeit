@@ -16,3 +16,7 @@ Alle Notwendigen Physikalischen Formeln/Werte/beachtungen:
     Wir berechnen eine näherung aus, je kleiner Delta t, desto genauer
     Die schleife läuft bis y <= 0, also bis der Ball den Boden berührt
     Reynoldszahl beachten (Re)
+
+Quellen:
+https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/shape-effects-on-drag/
+https://www.grc.nasa.gov/WWW/k-12/airplane/reynolds.html
