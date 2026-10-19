@@ -1,3 +1,18 @@
-Gestartet 04.09.2026
-Vorbereitung 04.09.2026-24.09.2026
-Ersten Prototypen erstellt 25.09.2026-02.11.2026
+1. Gestartet 04.09.2026
+2. Vorbereitung 04.09.2026-24.09.2026
+3. Ersten Prototypen erstellt 25.09.2026-02.11.2026
+
+3. 
+Alle Notwendigen Physikalischen Formeln/Werte/beachtungen:
+  Formeln:
+    Strömungswiderstandskoeffizient = D/(½rV²A)
+  Feste Werte:
+    Luftdichte = 1,293 Kg/m³
+    Gravitation = 9,81m/s²
+    Strömungswiderstandskoeffizient = 0,47
+  Beachtungen:
+    Es wird in Radians gearbeitet (Nicht Grad)
+    v_x und v_y sind getrennt (Es gibt in beide richtungen eine Geschwindigkeit)
+    Wir berechnen eine näherung aus, je kleiner Delta t, desto genauer
+    Die schleife läuft bis y <= 0, also bis der Ball den Boden berührt
+    Reynoldszahl beachten (Re)
