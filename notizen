@@ -12,10 +12,10 @@ Alle Notwendigen Physikalischen Formeln/Werte/beachtungen:
     Strömungswiderstandskoeffizient = 0,47
   Beachtungen:
     Es wird in Radians gearbeitet (Nicht Grad)
-    Reynoldszahl beachten (Re) / Dynamischer Luftwiderstand
-    (Magnus Effekt (Rotation/Spin des Balles))
-    Höhenabhängige Luftdichte
-    Wind/Relativgeschwindigkeit
+    Reynoldszahl beachten (Re) / Dynamischer Luftwiderstand      3
+    (Magnus Effekt (Rotation/Spin des Balles))                   4
+    Höhenabhängige Luftdichte                                    2
+    Wind/Relativgeschwindigkeit                                  1
 
 Quellen:
 https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/shape-effects-on-drag/
