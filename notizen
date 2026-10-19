@@ -12,10 +12,10 @@ Alle Notwendigen Physikalischen Formeln/Werte/beachtungen:
     Strömungswiderstandskoeffizient = 0,47
   Beachtungen:
     Es wird in Radians gearbeitet (Nicht Grad)
-    v_x und v_y sind getrennt (Es gibt in beide richtungen eine Geschwindigkeit)
-    Wir berechnen eine näherung aus, je kleiner Delta t, desto genauer
-    Die schleife läuft bis y <= 0, also bis der Ball den Boden berührt
-    Reynoldszahl beachten (Re)
+    Reynoldszahl beachten (Re) / Dynamischer Luftwiderstand
+    (Magnus Effekt (Rotation/Spin des Balles))
+    Höhenabhängige Luftdichte
+    Wind/Relativgeschwindigkeit
 
 Quellen:
 https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/shape-effects-on-drag/
