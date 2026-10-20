@@ -22,13 +22,13 @@
 ```text
 Projektarbeit/
 │
-├── .gitignore          # Steuert, welche Dateien nicht auf GitHub geladen werden
-├── LICENSE             # Lizenzinformationen zum Projekt
-├── Portfolio.odt       # Portfolio/Dokumentation der Projektarbeit
-├── README.md           # Diese Übersicht und Projektbeschreibung
-├── main.py             # Hauptprogramm und Startpunkt der Simulation
+├── .gitignore               # Steuert, welche Dateien nicht auf GitHub geladen werden
+├── LICENSE                  # Lizenzinformationen zum Projekt
+├── Portfolio.odt            # Portfolio/Dokumentation der Projektarbeit
+├── README.md                # Diese Übersicht und Projektbeschreibung
+├── main.py                  # Hauptprogramm und Startpunkt der Simulation
 │
-└── src/                # Quellcode-Ordner (Source)
-    ├── __init__.py     # Signaldatei für Python (bleibt leer)
-    ├── physics.py      # Physikalische Logik & Euler-Verfahren
-    └── visualization.py # Erstellung der Diagramme und Plots
+└── src/                     # Quellcode-Ordner (Source)
+    ├── __init__.py          # Signaldatei für Python (bleibt leer)
+    ├── physics.py           # Physikalische Logik
+    └── visualization.py     # Erstellung der Diagramme und Plots
