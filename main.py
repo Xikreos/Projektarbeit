@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import math
 
 # Importieren der Logik-Module aus dem src-Ordner
 from src.physics import (Simulation)
@@ -7,24 +8,26 @@ from src.visualization import (Design)
 def main():
     # Parameter definieren
     v0 = 30.0		# Startgeschwindigkeit
-    angle = 45.0	# Winkel
-    dt = 0.1		# Zeit zwischen den Schritten
+    angle = math.radians(45.0)	# Winkel des Abwurfs
+    dt = 0.01		# Zeit zwischen den Schritten
     m = 0.15		# Masse
-    r = 0.02		# Radius
-    cw = 0.5		# Strömungsstärkewiederstandskoeffizienz
-    rho = 1.2		# Luftdichte
+    r = 0.01		# Radius
+    cw = 0.47		# Strömungswiderstandskoeffizient
+    rho = 1.293		# Luftdichte
     g = 9.81		# Gravitation
+    A = math.pi * (r ** 2) #Fläche des Kreises
     
-    # Berechnung starten mit den richtigen Werten
+    # Parameter in die physics.py Datei übergeben
     x_vals, y_vals = Simulation(
         v0=v0,
-        angle_deg=angle,
+        angle=angle,
         dt=dt,
         m=m,
         r=r,
         cw=cw,
         rho=rho,
-        g=g
+        g=g,
+        A=A
         )
     
     # Visualisierung starten
