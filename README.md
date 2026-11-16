@@ -28,6 +28,15 @@ Projektarbeit/
 ├── README.md                # Diese Übersicht und Projektbeschreibung
 ├── main.py                  # Hauptprogramm und Startpunkt der Simulation
 │
+├── Vorgaben
+│
+├── Schulischer_Wurf
+│   ├── Schule_main.py
+│   └── src/                     # Quellcode-Ordner (Source)
+│        ├── __init__.py          # Signaldatei für Python (bleibt leer)
+│        ├── physics.py           # Physikalische Logik
+│        └── visualization.py     # Erstellung der Diagramme und Plots
+│
 └── src/                     # Quellcode-Ordner (Source)
     ├── __init__.py          # Signaldatei für Python (bleibt leer)
     ├── physics.py           # Physikalische Logik
