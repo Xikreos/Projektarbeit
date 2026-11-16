@@ -24,20 +24,20 @@ Projektarbeit/
 │
 ├── .gitignore               # Steuert, welche Dateien nicht auf GitHub geladen werden
 ├── LICENSE                  # Lizenzinformationen zum Projekt
-├── Portfolio.odt            # Portfolio/Dokumentation der Projektarbeit
+├── Portfolio.odt            # Portfolio / Dokumentation der Projektarbeit
 ├── README.md                # Diese Übersicht und Projektbeschreibung
 ├── main.py                  # Hauptprogramm und Startpunkt der Simulation
 │
-├── Vorgaben
-│    ├── Erläuterung zu Projekt in der Q1 2026.pdf
-│    ├── KI Nutzung Projektarbeit.pdf
-│    ├── Laufzettel Projektarbeit 2026-27.pdf
-│    ├── Schulinterne Vorgaben zur Projektarbeit 2026.pdf
-│    └── ZeitrasterPA 2026-27.pdf
+├── Vorgaben                                                 # Vorgaben der Schule
+│    ├── Erläuterung zu Projekt in der Q1 2026.pdf           # Erläuterung der Projektarbeit
+│    ├── KI Nutzung Projektarbeit.pdf                        # KI Nutzung zum ausfüllen
+│    ├── Laufzettel Projektarbeit 2026-27.pdf                # Laufzettel für die Projektarbeit
+│    ├── Schulinterne Vorgaben zur Projektarbeit 2026.pdf    # Vorgaben der Projektarbeit
+│    └── ZeitrasterPA 2026-27.pdf                            # Zeitplan für die Projektarbeit
 │
-├── Schulischer_Wurf
-│   ├── Schule_main.py
-│   └── src/                     # Quellcode-Ordner (Source)
+├── Schulischer_Wurf      # 
+│   ├── Schule_main.py    # Hauptprogramm und Startpunkt der Schulischen Simulation
+│   └── src/                      # Quellcode-Ordner (Source)
 │        ├── __init__.py          # Signaldatei für Python (bleibt leer)
 │        ├── physics.py           # Physikalische Logik
 │        └── visualization.py     # Erstellung der Diagramme und Plots
