@@ -35,7 +35,7 @@ Projektarbeit/
 │    ├── Schulinterne Vorgaben zur Projektarbeit 2026.pdf    # Vorgaben der Projektarbeit
 │    └── ZeitrasterPA 2026-27.pdf                            # Zeitplan für die Projektarbeit
 │
-├── Schulischer_Wurf      # 
+├── Schulischer_Wurf      # Simulation vom Schulischen / Simpleren Wurf
 │   ├── Schule_main.py    # Hauptprogramm und Startpunkt der Schulischen Simulation
 │   └── src/                      # Quellcode-Ordner (Source)
 │        ├── __init__.py          # Signaldatei für Python (bleibt leer)
