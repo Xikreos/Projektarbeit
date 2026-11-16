@@ -1,7 +1,15 @@
+Fragen zum Stellen:
+Physik:
+Sind die aktuellen Themen ausreichend?
+
+Mathe:
+Wie sollte die Matematische Analyse geliedert sein?
+
+
 1. Gestartet 04.09.2026
 2. Vorbereitung 04.09.2026-24.09.2026
-3. Ersten Prototypen erstellt und mit dem Portfolio angefangen 25.09.2026-02.11.2026
-4. 
+3. Ersten Prototypen erstellt und mit dem Portfolio vorbereitet 25.09.2026-02.11.2026
+4. Richtige arbeit am Portfolio begonnen 03.11.2026-.11.2026
 
 Portfolio:
 Die 5 W-Fragen die man im Hinterkopf behalten sollte:
@@ -20,19 +28,6 @@ Mathematische Analyse:
 Funktionenschar und Ortskurve
 Optimierung
 
-Alle Notwendigen Physikalischen Formeln/Werte/beachtungen:
-  Formeln:
-    Strömungswiderstandskoeffizient = D/(½rV²A)
-  Feste Werte:
-    Luftdichte = 1,293 Kg/m³
-    Gravitation = 9,81m/s²
-    Strömungswiderstandskoeffizient = 0,47
-  Beachtungen:
-    Es wird in Radians gearbeitet (Nicht Grad)
-    Reynoldszahl beachten (Re) / Dynamischer Luftwiderstand      3
-    Höheniabhängige Gravitation                                  4
-    Höhenabhängige Luftdichte                                    2
-    Wind/Relativgeschwindigkeit                                  1
 
 Quellen:
 https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/shape-effects-on-drag/
