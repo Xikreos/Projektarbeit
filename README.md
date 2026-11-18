@@ -27,6 +27,7 @@ Projektarbeit/
 ├── Portfolio.odt            # Portfolio / Dokumentation der Projektarbeit
 ├── README.md                # Diese Übersicht und Projektbeschreibung
 ├── main.py                  # Hauptprogramm und Startpunkt der Simulation
+├── notizen                  # notizen für die Projektarbeit
 │
 ├── Vorgaben                                                 # Vorgaben der Schule
 │    ├── Erläuterung zu Projekt in der Q1 2026.pdf           # Erläuterung der Projektarbeit
